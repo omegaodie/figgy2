@@ -9,24 +9,7 @@ html_form();
 ?>
 
 <div id="slideshow" >
-	<div>
-		<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Sugar-cane-workers-Honduras-Trocaire-1.jpg" alt="" class="active" />
-	</div>
-	<div>
-		<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Kosova-War-ruins-of-boys-house-1.jpg" alt=""  />
-	</div>
-	<div>
-		<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/102-Years-old-Bolivia-for-Trocaire-1.jpg" alt="" />
-	</div>
-	<div>
-		<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Maram.jpg" alt=""  />
-	</div>
-	<div>
-		<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Portrait.jpg" alt="" />
-	</div>
-	<div>
-		 <img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Natural-History-Museum-London-1.jpg"  alt="" />
-	</div>
+	
 </div>
 
 
@@ -134,7 +117,38 @@ html_form();
 
 
 <div id="workSection" class="section">
-
+	<div id="innerSection">
+		<div id="headerdiv">
+			<header id="worheader">
+				<h3 class="section-title">
+					<span>Our Work</span>
+				</h3>
+			</header>
+		</div>
+		<div id="videos">
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Sugar-cane-workers-Honduras-Trocaire-1.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Sugar-cane-workers-Honduras-Trocaire-1.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Kosova-War-ruins-of-boys-house-1.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/102-Years-old-Bolivia-for-Trocaire-1.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Maram.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				<img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Portrait.jpg" alt="" class="thumbPic" />
+			</div>
+			<div class="videoThumb">
+				 <img  src="http://localhost:8080/testing/wp-content/uploads/2016/08/Natural-History-Museum-London-1.jpg"  alt="" class="thumbPic" />
+			</div>
+		</div>
+	</div>
 </div>
 
 

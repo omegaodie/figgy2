@@ -587,16 +587,72 @@ html.no-csstransforms .slide-copy-wrap {left: 60px;right: 60px;}
   -moz-transform: translateY(0%);
   transform: translateY(0%);
 }
+
+
+#worheader {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+
+
 #header-section span {
   background:#FFFFFF;
   padding:0 20px;
 }
 
+.section-title {
+    background-attachment: scroll;
+    background-image: url('images/divider.png');
+    background-repeat: repeat-x;
+    background-position: center center;
+}
 
 .section{
 	position: relative;
 }
-#contactSection{
+#innerSection {
+	 margin-left:auto;
+    margin-right:auto;
+    height:1000px;
+    width:80%; 
+}
+#headerdiv {
+     position:relative;
+    width: 70%;
+    margin-left: 15%;
+}
+#workSection h3 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    font-style: normal;
+    text-transform: none;
+    position:relative;
+}
+#videos {
+	vertical-align: middle;
+	text-align: center;
+	position:relative;
+}
 
-
+.videoThumb {
+	display: inline-block;
+	height: 275px;
+    width: 275px;
+	float: left; 
+	position:relative;
+}
+.thumbPic {
+	position:relative;
+    top:150;
+    left:2%;
+    height: 100%;
+    width: 100%;
+    z-index:8;
+    padding:1px;
+   	border:1px solid #021a40;
+   	background-color:#FFFFFF;
 }
